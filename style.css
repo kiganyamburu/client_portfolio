@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+}
+.outermost-div{
+    background: linear-gradient( #ffdff4, #b748b5, #7a72b7, #9194e6);
+}
+
+.first-div{
+    padding: 4px;
+}
+.first-div svg{
+    margin: 3px;
+}
+.first-div a{
+    font-size: 1.1em;
+    float: right;
+    padding-right: 160px;
+}
+.phone-number{
+    background-color: #fff;
+    text-align: right;
+    height: 30px;
+    opacity: 0.6;
+    font-size: 0.9em;
+}
+.phone-number p{
+    padding-right: 20px;
+}
+button{
+    border: 2px solid #000;
+    outline: none;
+    height: 45px;
+    width: 160px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 100px;
+}
+button .cv{
+    float: right;
+    background: transparent;
+}
+/* .img{
+    width: 170px;
+    height:17;
+    border: 2px solid #162938;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px auto;
+} */
+.button-sections{
+    display: flex;
+    position: center;
+    margin-left: 20%;
+}
+.img img{
+    width: 160px;
+    height: 160px;
+    margin: 40px auto;
+    border-radius: 50%;
+
+
+}
+.name h3{
+    text-align: center;
+    font-size: 2em;
+}
+.name h1{
+    font-size: 3em;
+    text-align: center;
+    font-weight: bolder;
+
+}
+.navbar{
+    display: inline-block;
+    height: 60px;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+}
+.navbar a{
+    text-decoration: none;
+    margin: 30px;
+    text-align: center;
+    margin-top: 2px;
+    font-size: 1.1em;
+    font-weight: 900;
+}
+.divider{
+    height: 5px;
+    border-radius: 10px;
+    width: 30%;
+    position: relative;
+    background-color: #000;
+    display: inline-block;
+    align-items: center;
+    justify-self: center;
+}
+.skills{
+    background: linear-gradient(#ffdff4, #9194e6); /* #b748b5, #7a72b7,*/
+    margin-top: -15px;
+    display: flex;
+}
+.skills h2{
+    margin-left: 60px;
+}
+.skills .skill1{
+    margin-left: 10%;
+}
+.skills .skill1, 
+.skill2, 
+.skill3{
+    width: 30%;
+    display: block;
+}
+
+.my-projects{
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+.my-projects h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 50px;
+    color: #d62971;
+}
+.my-projects button#email{
+    width: 100px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: orangered;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin-left: -10px;
+    font-size: 1.2em;
+}
+.my-projects input{
+    margin-left: 50px;
+    height: 40px;
+    width: 290px;
+}
+.my-projects p{
+    margin-left: 50px;
+}
+.my-projects input::placeholder{
+    color: #162938;
+    font-size: 1.1em;
+}
+.my-projects h3{
+    margin: 0;
+    position: absolute;
+    font-weight: 800;
+    margin-left: 50px;
+    font-size: 1.1em;
+}
+.my-projects .image-two img{
+    position: relative;
+    margin-top: -29%;
+    padding-right: 20px;
+    float: right;
+    width: 40%;
+    height: 300px;
+}
+
+.education{
+    background-color: #bdb5ce;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.education-head{
+    background-color: #bdb5ce;
+    margin-top: -20px;
+    padding: 4px;
+    padding-left:35px;
+    color: #000;
+    font-weight: 800;
+}
+.education .certifications{
+    width: 43%;
+    background: #fff;
+    height: 200px;
+    padding: 3px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+.education .certifications h3{
+    color: #d62971;
+}
+.education .certifications p{
+    color: #9e9e9e;
+}
+
+
+.connect-with-me{
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.connect-with-me h2{
+    color: #d62971;
+}
